@@ -167,9 +167,8 @@ h2 {
 
 h3 {
   margin-top: 10px;
-  margin-right: 10px;
   font-family: var(--third-font-family);
-  font-size: 55px;
+  font-size: 60px;
   color: var(---primary-font-color);
 }
 
@@ -193,6 +192,7 @@ p {
 
 .name {
   color: #e452a7;
+  font-size: 60px;
 }
 
 .container-fluid {
@@ -485,7 +485,7 @@ a.icon {
 a.top-page {
   color: #e452a7;
   text-decoration: none;
-  font-size: 54px;
+  font-size: 60px;
 }
 a {
   color: #fd75c5;
@@ -552,17 +552,21 @@ a {
     margin-left: -8px;
   }
   h3 {
-    font-size: 25px;
-    margin-right: -13px;
+    font-size: 28px;
     margin-bottom: 0px;
   }
-  .name {
+  h3.name {
     text-align: right;
+    font-size: 28px;
+  }
+  a.top-page {
+    font-size: 28px !important;
   }
   .hello {
-    margin-right: 14px;
     margin-top: 34px;
     margin-bottom: 9px;
+    margin-left: -9px;
+    margin-right: 10px;
   }
 
   .nav-link {
