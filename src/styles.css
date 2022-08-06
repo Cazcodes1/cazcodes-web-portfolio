@@ -128,8 +128,8 @@ button.navbar-toggler {
   font-size: 1.25rem;
   margin-bottom: -13px;
 }
-.navbar-collapse {
-  margin-top: 60px;
+.reducenav {
+  margin-top: 80px;
 }
 
 .nav-link {
@@ -498,19 +498,6 @@ a {
   color: #fd75c5;
   text-decoration: none;
   font-size: 18px;
-}
-
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: center;
-    align-content: stretch;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 32px;
-  }
 }
 
 @media (max-width: 992px) {
