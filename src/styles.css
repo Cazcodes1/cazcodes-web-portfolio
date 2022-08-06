@@ -249,6 +249,7 @@ div.container-fluid {
 }
 .rounded {
   --bs-border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .link {
@@ -414,6 +415,14 @@ div.contact {
   padding: 98px;
 }
 
+div.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
 div.container.text-center {
   display: flex;
   justify-content: center;
@@ -519,7 +528,7 @@ a {
     padding: 15px;
   }
   #row {
-    margin-top: -71px;
+    margin-top: -62px;
     flex-direction: column;
   }
   .row-intro {
@@ -558,15 +567,15 @@ a {
   }
 
   h3 {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 0px;
   }
   h3.name {
     text-align: right;
-    font-size: 28px;
+    font-size: 30px;
   }
   a.top-page {
-    font-size: 28px !important;
+    font-size: 30px !important;
   }
   .hello {
     margin-top: 60px;
@@ -576,12 +585,13 @@ a {
   }
 
   .nav-link {
-    font-size: 19px;
-    margin-left: -26px;
-    margin-top: -34px;
+    display: inline;
+    font-size: 18px;
+    margin-left: 3px;
     margin-bottom: -28px;
-    padding: 59px;
-    line-height: 15px;
+    padding: 24px;
+    line-height: 75px;
+    letter-spacing: var(---letter-spacing);
   }
 
   .img-fluid {
