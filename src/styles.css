@@ -130,7 +130,7 @@ button.navbar-toggler {
   margin-bottom: -13px;
 }
 .navbar-collapse {
-  margin-top: 13px;
+  margin-top: 60px;
 }
 
 .nav-link {
@@ -186,7 +186,7 @@ p {
 
 .hello {
   display: flex;
-  margin-top: 28px;
+  margin-top: 60px;
   margin-bottom: -20px;
   padding: 0px 40px;
   flex-direction: column;
@@ -512,6 +512,7 @@ a {
 @media (max-width: 992px) {
   .row {
     flex-direction: column;
+    padding: 15px;
   }
   #row {
     margin-top: -71px;
@@ -548,8 +549,7 @@ a {
   }
   .p-5 {
     padding: 12px !important;
-    margin-top: 45px;
-    margin-bottom: -3px;
+    margin-top: 28px;
     margin-left: -6px;
   }
 
@@ -565,7 +565,7 @@ a {
     font-size: 28px !important;
   }
   .hello {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 9px;
     margin-left: -9px;
     margin-right: 10px;
@@ -651,6 +651,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 16px;
   }
   #achievement {
     margin-top: 60px !important;
@@ -659,12 +661,15 @@ a {
   div.container-fluid {
     padding: 0px;
   }
+  div.apps {
+    margin-right: -5px;
+  }
   div.certificates {
     display: flex;
     box-shadow: var(---box-shadow-links);
     background-color: #0000000a;
     justify-content: center;
-    padding: 2px 21px;
+    padding: 4px 20px;
   }
   .enter-logo {
     max-width: 350px;
