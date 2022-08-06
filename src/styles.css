@@ -111,7 +111,6 @@ span.navbar-toggler-icon {
 }
 button.navbar-toggler {
   margin-left: 27px;
-
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -261,7 +260,6 @@ div.container-fluid {
 }
 
 .link {
-  display: block;
   margin: auto;
   max-width: fit-content;
   text-align: center;
@@ -280,6 +278,11 @@ div.container-fluid {
   color: var(---link-hover-color) !important;
   transition: ease-in-out 0.2s;
   font-size: 15px;
+}
+
+section.lplink-position {
+  text-align: center;
+  margin-top: 35px;
 }
 
 .linktree {
@@ -587,6 +590,10 @@ a {
   }
   #tropical-weather {
     margin-top: -14px;
+  }
+  section.lplink-position {
+    text-align: center;
+    margin-top: 9px;
   }
   .how-to-contact {
     font-size: 37px !important;
