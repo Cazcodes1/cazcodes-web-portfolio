@@ -319,6 +319,7 @@ div.container-fluid {
 .para-me {
   font-family: var(---alternative-font-family);
   margin-top: 0;
+  font-size: 17px;
 }
 
 .coded-by,
