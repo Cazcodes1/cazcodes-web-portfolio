@@ -324,6 +324,7 @@ section.lplink-position {
   font-family: var(---alternative-font-family);
   margin-top: 0;
   font-size: 17px;
+  max-width: 80%;
 }
 
 .coded-by,
@@ -370,6 +371,7 @@ div.certificates {
   background-color: #0000000a;
   margin-top: 25px;
   margin-top: 52px;
+  max-width: 63%;
 }
 
 .contact-information {
