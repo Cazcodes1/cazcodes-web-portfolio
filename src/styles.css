@@ -367,11 +367,11 @@ div.main {
 div.certificates {
   display: flex;
   justify-content: center;
-  box-shadow: var(---box-shadow-links);
+  /* box-shadow: var(---box-shadow-links); */
   background-color: #0000000a;
   margin-top: 25px;
   margin-top: 52px;
-  max-width: 63%;
+  max-width: 66%;
 }
 
 .contact-information {
@@ -687,7 +687,7 @@ a {
   }
   div.certificates {
     display: flex;
-    box-shadow: var(---box-shadow-links);
+    /* box-shadow: var(---box-shadow-links); */
     background-color: #0000000a;
     justify-content: center;
     padding: 4px 20px;
